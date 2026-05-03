@@ -20,7 +20,7 @@
 
 2. **Clone this repository**
    ```bash
-   git clone https://github.com/caradat/comfyui-lmstudio-bridge.git ComfyExpo-LMStudioBridge
+   git clone https://github.com/caradat/comfyui-lmstudio-bridge.git comfyui-lmstudio-bridge
    ```
 
 3. **Install Python dependencies**  
@@ -38,8 +38,8 @@
 
 ### 1. Prepare LM Studio
 - Download and launch [LM Studio](https://lmstudio.ai/).
-- Load a model (for image‑to‑text, ensure it’s a **vision model**, e.g. LLaVA, CogVLM, etc.).
-- Go to the **Server** tab (`<->`) and **start the server** (default port `1234`).
+- Load a model (for image‑to‑text, ensure it’s a **vision model**, e.g. qwen35, gemma4, etc.).
+- Go to the **Developer** tab (`<->`) and **start the server** (default port `1234`).
 - (Optional) Note the `model_key` shown in LM Studio if you want to specify a model manually.
 
 ### 2. Use the Node in ComfyUI
