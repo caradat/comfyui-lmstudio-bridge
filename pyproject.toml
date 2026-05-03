@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-lmstudio-bridge"
+description = "A bridge for ComfyUI to seamlessly integrate with LM Studio's capabilities, enabling advanced image-to-text and text generation workflows using local models."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["requests"]
+
+[project.urls]
+Repository = "https://github.com/caradat/comfyui-lmstudio-bridge"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "expo"
+DisplayName = "comfyui-lmstudio-bridge"
+Icon = "https://uuhwiahvfvrzsenphewc.supabase.co/storage/v1/object/public/phormulate-media-bucket/lmstudio-comfyui.png"
+
